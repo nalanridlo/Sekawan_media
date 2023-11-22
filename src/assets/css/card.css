@@ -1,0 +1,5 @@
+.card .card-information{
+    display: flex;
+    justify-content: space-between;
+    
+}
