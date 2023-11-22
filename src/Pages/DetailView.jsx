@@ -60,27 +60,11 @@ function DetailView() {
                           <h3>{el.name}</h3>
                         </div>
                         <div className="desc mb-5">
-                          {/* <p>{el.description}</p> */}
-                          {/* <div
+                          <div
                       className="card-text"
-                      dangerouslySetInnerHTML={{ __html: el.description }}
-                    ></div> */}
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Minus praesentium explicabo reiciendis iure voluptatibus
-                            quo ipsam, molestias mollitia tempore obcaecati quos
-                            nihil officia magnam excepturi perspiciatis accusamus
-                            esse amet eveniet! Lorem ipsum dolor sit, amet
-                            consectetur adipisicing elit. Voluptas modi, alias cum
-                            fugit facere perferendis saepe non magnam, nihil
-                            exercitationem ipsum, maiores praesentium molestias!
-                            Quisquam facere iure eius ab asperiores? Lorem ipsum
-                            dolor sit amet consectetur, adipisicing elit. Est
-                            maiores, architecto numquam accusamus, suscipit quisquam
-                            rem eaque perspiciatis quis ad possimus itaque! Cumque
-                            soluta placeat ipsam voluptatum deleniti optio
-                            recusandae!
-                          </p>
+                      dangerouslySetInnerHTML={{ __html: el.text }}
+                    ></div>
+
                         </div>
                       </div>
                     </div>
