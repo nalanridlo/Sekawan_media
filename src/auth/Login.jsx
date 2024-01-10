@@ -9,8 +9,8 @@ const Login = () => {
 
   const handleLogin = () => {
    
-    const validUsername = "sekawanmedia";
-    const validPassword = "sekawanmedia";
+    const validUsername = "admin";
+    const validPassword = "admin";
 
     if (username === validUsername && password === validPassword) {
       navigate("/home");
@@ -48,13 +48,13 @@ const Login = () => {
         <form>
           <div className="form-outline mb-4">
               <label className="form-label" for="form3Example3">Username</label>
-            <input type="text" id="form3Example3" className="form-control form-control-lg"
-              placeholder="Enter a valid username" value={username} onChange={(e) => setUsername(e.target.value)} />
+            <input type="text" id="form3Example3" className="form-control form-control-lg" placeholder= "admin"
+               value={username} onChange={(e) => setUsername(e.target.value)} />
           </div>
           <div className="form-outline mb-3">
               <label className="form-label" for="form3Example4">Password</label>
             <input type="password" id="form3Example4" className="form-control form-control-lg"
-              placeholder="Enter password" value={password} onChange={(e) => setPassword(e.target.value)} />
+              placeholder="admin" value={password} onChange={(e) => setPassword(e.target.value)} />
           </div>
           <div className="text-center text-lg-start mt-4 pt-2">
             <button type="button" className="btn btn-primary btn-lg"
