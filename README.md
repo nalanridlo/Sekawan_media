@@ -9,7 +9,7 @@ This website project uses the React-JS framework . Apart from that, it also uses
 ### Download Project
 
 ```sh
-git clone https://github.com/WahyuArd1401/cmlabs-frontend-internship-test.git
+
 ```
 ### Install Package
 
@@ -31,6 +31,6 @@ localhost:<your-port-in-terminal>
 
 ### Access Using the Deployed Url (Alternatif View)
 ```sh
-wahyuardian-mealapp.vercel.app
+
 ```
 
